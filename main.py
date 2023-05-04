@@ -1,8 +1,7 @@
-class student():
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-    def into(self):
-        print(f"Імя: {self.name}, vik: {self.age}")
-student = student("vasya", 23)
-student.info()
+class circle:
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
+     print(f"радіус: {self.radius*self.radius*3.14}")
+circle = circle(radius = 52)
+circle.area()

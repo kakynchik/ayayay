@@ -1,8 +1,10 @@
-class student():
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-    def into(self):
-        print(f"Імя: {self.name}, vik: {self.age}")
-student = student("vasya", 23)
-student.info()
+class BankAccount:
+    def __init__(self, balance, owner):
+        self.balance = balance
+        self.owner = owner
+    def deposit(self):
+        self.balance - 100
+        print(self.balance)
+    def withrow(self):
+        self.balance + 100
+        print(self.balance)

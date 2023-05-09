@@ -1,10 +1,13 @@
-class BankAccount:
-    def __init__(self, balance, owner):
-        self.balance = balance
-        self.owner = owner
-    def deposit(self):
-        self.balance - 100
-        print(self.balance)
-    def withrow(self):
-        self.balance + 100
-        print(self.balance)
+class school:
+    def __init__(self, name, students):
+        self.name = name
+        self.students = students
+    def admit_student(self, student):
+        self.students.append(student)
+        print(f'{student.name} byv dodani do shkoli {self.name}')
+
+
+class student:
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
